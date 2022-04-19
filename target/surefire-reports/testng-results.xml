@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-19T18:49:15 EEST" name="Suite" finished-at="2022-04-19T18:50:50 EEST" duration-ms="95150">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-04-19T18:49:15 EEST" name="Test" finished-at="2022-04-19T18:50:50 EEST" duration-ms="95150">
+      <class name="runners.MainRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:49:15 EEST" name="setUpClass" finished-at="2022-04-19T18:49:15 EEST" duration-ms="436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a22f9e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:49:15 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:49:27 EEST" duration-ms="12060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate restaurant options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Discovery Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:49:27 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:49:36 EEST" duration-ms="9186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Stores options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Discovery Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:49:36 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:49:44 EEST" duration-ms="7352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate address input - Specific Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Frontpage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:49:44 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:49:54 EEST" duration-ms="9872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate address input - Current location"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Frontpage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:49:54 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:50:00 EEST" duration-ms="5790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate view popular link button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Frontpage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:50:00 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:50:07 EEST" duration-ms="7173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate shopping cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Restaurant Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:50:07 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:50:15 EEST" duration-ms="8390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate shopping cart - multiple items"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Restaurant Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:50:15 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:50:22 EEST" duration-ms="6565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate shopping cart - Item with required options"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Restaurant Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:50:22 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:50:29 EEST" duration-ms="6995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate shopping cart - different items"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Restaurant Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:50:29 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:50:35 EEST" duration-ms="6843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate shopping cart - different items"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Restaurant Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:50:35 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:50:43 EEST" duration-ms="7855" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate shopping cart - different items"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Restaurant Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [€3.00] but found [€2.00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [€3.00] but found [€2.00]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at pageObjects.RestaurantPO.checkCartView(RestaurantPO.java:68)
+at stepDefinitions.base.Restaurant.theCartViewButtonShouldBeUpdated(Restaurant.java:38)
+at ✽.The cart view button should show the price €2.00(classpath:features/Restaurant.feature:33)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:50:43 EEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-19T18:50:50 EEST" duration-ms="6499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate shopping cart - different items"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wolt - Restaurant Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.MainRunner@4f638935]" started-at="2022-04-19T18:50:50 EEST" name="tearDownClass" finished-at="2022-04-19T18:50:50 EEST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.MainRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="95.494" tests="12" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="/Users/anacarolina/Documents/workplace/Projects/wolt-project/src/main/java/driver/drivers/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/anacarolina/Documents/workplace/Projects/wolt-project/target/test-classes:/Users/anacarolina/Documents/workplace/Projects/wolt-project/target/classes:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/anacarolina/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/anacarolina/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/anacarolina/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/anacarolina/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/anacarolina/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/anacarolina/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/anacarolina/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/anacarolina/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/anacarolina/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/com/beust/jcommander/1.81/jcommander-1.81.jar:/Users/anacarolina/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/anacarolina/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/anacarolina/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/anacarolina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/anacarolina/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/anacarolina/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/anacarolina/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/anacarolina/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/anacarolina/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/anacarolina/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/anacarolina/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-java/7.0.0/cucumber-java-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-core/7.0.0/cucumber-core-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-gherkin/7.0.0/cucumber-gherkin-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.0.0/cucumber-gherkin-messages-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/anacarolina/.m2/repository/io/cucumber/tag-expressions/4.0.2/tag-expressions-4.0.2.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/anacarolina/.m2/repository/io/cucumber/datatable/7.0.0/datatable-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-plugin/7.0.0/cucumber-plugin-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/docstring/7.0.0/docstring-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/create-meta/6.0.1/create-meta-6.0.1.jar:/Users/anacarolina/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-testng/7.0.0/cucumber-testng-7.0.0.jar:/Users/anacarolina/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/anacarolina/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-picocontainer/7.0.0/cucumber-picocontainer-7.0.0.jar:/Users/anacarolina/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/anacarolina/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/anacarolina/.m2/repository/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Users/anacarolina/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/anacarolina/Documents/workplace/Projects/wolt-project/target/surefire/surefirebooter4389323396250300991.jar /Users/anacarolina/Documents/workplace/Projects/wolt-project/target/surefire 2022-04-19T18-49-14_435-jvmRun1 surefire13784769544041567909tmp surefire_02703726484851266154tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/anacarolina/Documents/workplace/Projects/wolt-project/target/test-classes:/Users/anacarolina/Documents/workplace/Projects/wolt-project/target/classes:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0/selenium-java-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0/selenium-api-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0/selenium-chrome-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/Users/anacarolina/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/Users/anacarolina/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/Users/anacarolina/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/anacarolina/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/anacarolina/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/anacarolina/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/anacarolina/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/anacarolina/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/anacarolina/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0/selenium-chromium-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0/selenium-json-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0/selenium-devtools-v85-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0/selenium-devtools-v93-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v94/4.0.0/selenium-devtools-v94-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v95/4.0.0/selenium-devtools-v95-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0/selenium-edge-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0/selenium-firefox-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0/selenium-firefox-xpi-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0/selenium-ie-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0/selenium-opera-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0/selenium-remote-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/com/beust/jcommander/1.81/jcommander-1.81.jar:/Users/anacarolina/.m2/repository/io/netty/netty-buffer/4.1.68.Final/netty-buffer-4.1.68.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-common/4.1.68.Final/netty-common-4.1.68.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport/4.1.68.Final/netty-transport-4.1.68.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-resolver/4.1.68.Final/netty-resolver-4.1.68.Final.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-api/1.6.0/opentelemetry-api-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-context/1.6.0/opentelemetry-context-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.6.0/opentelemetry-exporter-logging-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.6.0-alpha/opentelemetry-sdk-metrics-1.6.0-alpha.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.6.0/opentelemetry-sdk-common-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.6.0/opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.6.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.6.0/opentelemetry-sdk-trace-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.6.0-alpha/opentelemetry-api-metrics-1.6.0-alpha.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.6.0/opentelemetry-sdk-1.6.0.jar:/Users/anacarolina/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.6.0-alpha/opentelemetry-semconv-1.6.0-alpha.jar:/Users/anacarolina/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/anacarolina/.m2/repository/net/bytebuddy/byte-buddy/1.11.19/byte-buddy-1.11.19.jar:/Users/anacarolina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/anacarolina/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/anacarolina/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/anacarolina/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/anacarolina/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/anacarolina/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/anacarolina/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/anacarolina/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/anacarolina/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0/selenium-http-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0/selenium-safari-driver-4.0.0.jar:/Users/anacarolina/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0/selenium-support-4.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-java/7.0.0/cucumber-java-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-core/7.0.0/cucumber-core-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-gherkin/7.0.0/cucumber-gherkin-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.0.0/cucumber-gherkin-messages-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/anacarolina/.m2/repository/io/cucumber/tag-expressions/4.0.2/tag-expressions-4.0.2.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/anacarolina/.m2/repository/io/cucumber/datatable/7.0.0/datatable-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-plugin/7.0.0/cucumber-plugin-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/docstring/7.0.0/docstring-7.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/anacarolina/.m2/repository/io/cucumber/create-meta/6.0.1/create-meta-6.0.1.jar:/Users/anacarolina/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-testng/7.0.0/cucumber-testng-7.0.0.jar:/Users/anacarolina/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/anacarolina/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/anacarolina/.m2/repository/io/cucumber/cucumber-picocontainer/7.0.0/cucumber-picocontainer-7.0.0.jar:/Users/anacarolina/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/anacarolina/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/anacarolina/.m2/repository/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/anacarolina"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/Users/anacarolina/Library/Java/JavaVirtualMachines/openjdk-16.0.2/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/anacarolina/Documents/workplace/Projects/wolt-project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/anacarolina/Documents/workplace/Projects/wolt-project/target/surefire/surefirebooter4389323396250300991.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="anacarolina"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/anacarolina/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/55/2wgz1kzd4pv2_ddg2mh68qpc0000gp/T/"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="cucumber.filter.tags" value="@wolt"/>
+    <property name="user.dir" value="/Users/anacarolina/Documents/workplace/Projects/wolt-project"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/anacarolina/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Validate restaurant options&quot;, &quot;Optional[Wolt - Discovery Page]&quot;](1)" classname="runners.MainRunner" time="12.068">
+    <system-out><![CDATA[
+@wolt @Discovery
+Scenario: Validate restaurant options               # features/Discovery.feature:10
+  Given I access the Discovery page                 # stepDefinitions.base.Discovery.iAccessTheDiscoveryPage()
+  When I accept the cookies from discovery page     # stepDefinitions.base.Discovery.iAcceptTheCookiesFromDiscoveryPage()
+  When I click on Restaurants button                # stepDefinitions.base.Discovery.iClickOnRestaurantsButton()
+50
+  Then I should be present to a list of restaurants # stepDefinitions.base.Discovery.iShouldBePresentToAListOfRestaurants()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 51412
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383358.497][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:49:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:49:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:49:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:49:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate Stores options&quot;, &quot;Optional[Wolt - Discovery Page]&quot;](2)" classname="runners.MainRunner" time="9.186">
+    <system-out><![CDATA[
+@wolt @Discovery
+Scenario: Validate Stores options               # features/Discovery.feature:15
+  Given I access the Discovery page             # stepDefinitions.base.Discovery.iAccessTheDiscoveryPage()
+  When I accept the cookies from discovery page # stepDefinitions.base.Discovery.iAcceptTheCookiesFromDiscoveryPage()
+  And I click on Stores button                  # stepDefinitions.base.Discovery.iClickOnStoresButton()
+15
+  Then I should be present to a list of Stores  # stepDefinitions.base.Discovery.iShouldBePresentToAListOfStores()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 59484
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383369.112][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:49:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:49:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:49:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:49:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate address input - Specific Data&quot;, &quot;Optional[Wolt - Frontpage]&quot;](3)" classname="runners.MainRunner" time="7.351">
+    <system-out><![CDATA[
+@frontpage @wolt
+Scenario: Validate address input - Specific Data       # features/Frontpage.feature:10
+  Given I access the frontpage                         # stepDefinitions.base.Frontpage.iAccessTheFrontPage()
+  When I accept the cookies from frontpage             # stepDefinitions.base.Frontpage.iAcceptTheCookies()
+  And I enter a specific address Tikkurila             # stepDefinitions.base.Frontpage.iEnterASpecificAddress(java.lang.String)
+  And I click on search button                         # stepDefinitions.base.Frontpage.iClickOnSearchButton()
+  And Select the address                               # stepDefinitions.base.Frontpage.selectTheAddress()
+  Then I should be redirected to wolt.com/en/discovery # stepDefinitions.base.Frontpage.iShouldBeRedirectedTo(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 50806
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383378.291][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:49:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:49:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:49:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:49:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate address input - Current location&quot;, &quot;Optional[Wolt - Frontpage]&quot;](4)" classname="runners.MainRunner" time="9.869">
+    <system-out><![CDATA[
+@frontpage @wolt
+Scenario: Validate address input - Current location    # features/Frontpage.feature:17
+  Given I access the frontpage                         # stepDefinitions.base.Frontpage.iAccessTheFrontPage()
+  When I accept the cookies from frontpage             # stepDefinitions.base.Frontpage.iAcceptTheCookies()
+  And I click on the address box                       # stepDefinitions.base.Frontpage.clickOnTheAddressBox()
+  And I Click on use my current location               # stepDefinitions.base.Frontpage.iClickOnUseMyCurrentLocation()
+  Then I should be redirected to wolt.com/en/discovery # stepDefinitions.base.Frontpage.iShouldBeRedirectedTo(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 55651
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383385.604][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:49:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:49:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:49:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:49:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate view popular link button&quot;, &quot;Optional[Wolt - Frontpage]&quot;](5)" classname="runners.MainRunner" time="5.792">
+    <system-out><![CDATA[
+@frontpage @wolt
+Scenario: Validate view popular link button                                  # features/Frontpage.feature:23
+  Given I access the frontpage                                               # stepDefinitions.base.Frontpage.iAccessTheFrontPage()
+  When I accept the cookies from frontpage                                   # stepDefinitions.base.Frontpage.iAcceptTheCookies()
+  And I Click on view popular link button                                    # stepDefinitions.base.Frontpage.i_click_on_view_popular_link_button()
+  Then I should be redirected either to wolt.com/en/fin/ or wolt.com/en/nor/ # stepDefinitions.base.Frontpage.iShouldBeRedirectedToOr(java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 49271
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383395.494][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:49:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:49:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:49:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:49:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate shopping cart&quot;, &quot;Optional[Wolt - Restaurant Page]&quot;](6)" classname="runners.MainRunner" time="7.171">
+    <system-out><![CDATA[
+@wolt @restaurant
+Scenario: Validate shopping cart                        # features/Restaurant.feature:9
+  Given I access the specific restaurant page           # stepDefinitions.base.Restaurant.iAccessTheSpecificRestaurantPage()
+  When I accept the cookies from restaurant page        # stepDefinitions.base.Restaurant.iAcceptTheCookiesFromRestaurantPage()
+  And I Choose an item on the menu                      # stepDefinitions.base.Restaurant.iChooseAItemOnTheMenu()
+  And I click on add order button                       # stepDefinitions.base.Restaurant.iClickOnAddOrderButton()
+  Then The cart view button should show the price €3.00 # stepDefinitions.base.Restaurant.theCartViewButtonShouldBeUpdated(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 62601
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383401.306][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:50:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:50:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:50:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:50:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate shopping cart - multiple items&quot;, &quot;Optional[Wolt - Restaurant Page]&quot;](7)" classname="runners.MainRunner" time="8.389">
+    <system-out><![CDATA[
+@wolt @restaurant
+Scenario: Validate shopping cart - multiple items       # features/Restaurant.feature:15
+  Given I access the specific restaurant page           # stepDefinitions.base.Restaurant.iAccessTheSpecificRestaurantPage()
+  When I accept the cookies from restaurant page        # stepDefinitions.base.Restaurant.iAcceptTheCookiesFromRestaurantPage()
+  And I Choose an item on the menu 55                   # stepDefinitions.base.Restaurant.iChooseAIitemOnTheMenu(int)
+  And I click on add order button                       # stepDefinitions.base.Restaurant.iClickOnAddOrderButton()
+  And I Choose an item on the menu 56                   # stepDefinitions.base.Restaurant.iChooseAIitemOnTheMenu(int)
+  And I click on add order button                       # stepDefinitions.base.Restaurant.iClickOnAddOrderButton()
+  Then The cart view button should show the price €6.00 # stepDefinitions.base.Restaurant.theCartViewButtonShouldBeUpdated(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 54819
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383408.470][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:50:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:50:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:50:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:50:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate shopping cart - Item with required options&quot;, &quot;Optional[Wolt - Restaurant Page]&quot;](8)" classname="runners.MainRunner" time="6.565">
+    <system-out><![CDATA[
+@wolt @restaurant
+Scenario: Validate shopping cart - Item with required options                     # features/Restaurant.feature:23
+  Given I access the specific restaurant page                                     # stepDefinitions.base.Restaurant.iAccessTheSpecificRestaurantPage()
+  When I accept the cookies from restaurant page                                  # stepDefinitions.base.Restaurant.iAcceptTheCookiesFromRestaurantPage()
+  And I Choose an item on the menu 22                                             # stepDefinitions.base.Restaurant.iChooseAIitemOnTheMenu(int)
+  And I click on add order button                                                 # stepDefinitions.base.Restaurant.iClickOnAddOrderButton()
+  Then The option form should to keep available and required message be presented # stepDefinitions.base.Restaurant.theOptionFormShouldToKeepAvailableAndRequiredMessageBePresented()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 49740
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383416.820][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:50:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:50:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:50:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:50:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate shopping cart - different items&quot;, &quot;Optional[Wolt - Restaurant Page]&quot;](9)" classname="runners.MainRunner" time="7.005">
+    <system-out><![CDATA[
+@wolt @restaurant
+Scenario Outline: Validate shopping cart - different items # features/Restaurant.feature:37
+  Given I access the specific restaurant page              # stepDefinitions.base.Restaurant.iAccessTheSpecificRestaurantPage()
+  When I accept the cookies from restaurant page           # stepDefinitions.base.Restaurant.iAcceptTheCookiesFromRestaurantPage()
+  And I Choose an item on the menu 56                      # stepDefinitions.base.Restaurant.iChooseAIitemOnTheMenu(int)
+  And I click on add order button                          # stepDefinitions.base.Restaurant.iClickOnAddOrderButton()
+  Then The cart view button should show the price €3.00    # stepDefinitions.base.Restaurant.theCartViewButtonShouldBeUpdated(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 53293
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383423.421][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:50:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:50:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:50:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:50:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate shopping cart - different items&quot;, &quot;Optional[Wolt - Restaurant Page]&quot;](10)" classname="runners.MainRunner" time="6.841">
+    <system-out><![CDATA[
+@wolt @restaurant
+Scenario Outline: Validate shopping cart - different items # features/Restaurant.feature:38
+  Given I access the specific restaurant page              # stepDefinitions.base.Restaurant.iAccessTheSpecificRestaurantPage()
+  When I accept the cookies from restaurant page           # stepDefinitions.base.Restaurant.iAcceptTheCookiesFromRestaurantPage()
+  And I Choose an item on the menu 57                      # stepDefinitions.base.Restaurant.iChooseAIitemOnTheMenu(int)
+  And I click on add order button                          # stepDefinitions.base.Restaurant.iClickOnAddOrderButton()
+  Then The cart view button should show the price €3.00    # stepDefinitions.base.Restaurant.theCartViewButtonShouldBeUpdated(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 49583
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383430.424][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:50:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:50:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:50:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:50:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate shopping cart - different items&quot;, &quot;Optional[Wolt - Restaurant Page]&quot;](11)" classname="runners.MainRunner" time="7.86">
+    <failure message="expected [€3.00] but found [€2.00]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [€3.00] but found [€2.00]
+]]></failure>
+    <system-out><![CDATA[
+@wolt @restaurant
+Scenario Outline: Validate shopping cart - different items # features/Restaurant.feature:39
+  Given I access the specific restaurant page              # stepDefinitions.base.Restaurant.iAccessTheSpecificRestaurantPage()
+  When I accept the cookies from restaurant page           # stepDefinitions.base.Restaurant.iAcceptTheCookiesFromRestaurantPage()
+  And I Choose an item on the menu 58                      # stepDefinitions.base.Restaurant.iChooseAIitemOnTheMenu(int)
+  And I click on add order button                          # stepDefinitions.base.Restaurant.iClickOnAddOrderButton()
+  Then The cart view button should show the price €2.00    # stepDefinitions.base.Restaurant.theCartViewButtonShouldBeUpdated(java.lang.String)
+      java.lang.AssertionError: expected [€3.00] but found [€2.00]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at pageObjects.RestaurantPO.checkCartView(RestaurantPO.java:68)
+	at stepDefinitions.base.Restaurant.theCartViewButtonShouldBeUpdated(Restaurant.java:38)
+	at ✽.The cart view button should show the price €2.00(classpath:features/Restaurant.feature:33)
+
+
+    Embedding 1650383443086 [image/png 278989 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 55013
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383437.155][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:50:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:50:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:50:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:50:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate shopping cart - different items&quot;, &quot;Optional[Wolt - Restaurant Page]&quot;](12)" classname="runners.MainRunner" time="6.498">
+    <system-out><![CDATA[
+@wolt @restaurant
+Scenario Outline: Validate shopping cart - different items # features/Restaurant.feature:40
+  Given I access the specific restaurant page              # stepDefinitions.base.Restaurant.iAccessTheSpecificRestaurantPage()
+  When I accept the cookies from restaurant page           # stepDefinitions.base.Restaurant.iAcceptTheCookiesFromRestaurantPage()
+  And I Choose an item on the menu 59                      # stepDefinitions.base.Restaurant.iChooseAIitemOnTheMenu(int)
+  And I click on add order button                          # stepDefinitions.base.Restaurant.iClickOnAddOrderButton()
+  Then The cart view button should show the price €3.00    # stepDefinitions.base.Restaurant.theCartViewButtonShouldBeUpdated(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 65162
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1650383444.995][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 19, 2022 6:50:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 19, 2022 6:50:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+Apr 19, 2022 6:50:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+Apr 19, 2022 6:50:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
